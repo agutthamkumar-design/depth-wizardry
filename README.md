@@ -34,3 +34,33 @@ depth-wizardry/
 ├── Source/               # Custom C++ engine modules and build targets
 │   └── satillite_imagery/# ElevationSubsystem, PlayerController, and GameMode
 └── satillite_imagery.uproject # Main project descriptor
+
+Prerequisites
+Unreal Engine 5.3+
+
+Visual Studio 2022 (with Game development with C++ and Unreal Engine IDE Support installed)
+
+Setup & Launch
+Clone the repository:
+
+Bash
+git clone [https://github.com/agutthamkumar-design/depth-wizardry.git](https://github.com/agutthamkumar-design/depth-wizardry.git)
+cd depth-wizardry
+Generate project files:
+
+Right-click satillite_imagery.uproject and select Generate Visual Studio project files.
+
+Compile and run:
+
+Open satillite_imagery.sln in Visual Studio 2022.
+
+Set configuration to Development Editor and build the solution (Ctrl + Shift + B).
+
+Launch the project directly from Visual Studio or double-click satillite_imagery.uproject.
+
+Open the terrain map:
+
+In the Content Drawer, navigate to Content/satellite_imagery/3d_map.umap and press Play (PIE).
+
+Authors & Contributors
+Uttham Kumar
